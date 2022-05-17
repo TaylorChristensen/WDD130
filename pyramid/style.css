@@ -1,0 +1,45 @@
+#top {
+    text-align: center;
+    background-color: red;
+    width: 300px;
+    margin: 0% auto;
+    line-height: 50px;
+}
+
+#middle {
+    text-align: center;
+    background-color: blue;
+    width: 400px;
+    margin: 0% auto;
+    line-height: 80px;
+}
+
+#bottom {
+    text-align: center;
+    background-color: green;
+    width: 500px;
+    margin: 0% auto;
+    line-height: 100px;
+}
+
+#box1 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-left: 0%;
+    float: left;
+}
+
+#box2 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-right: 0%;
+    float: right;
+}
+
+body {
+    max-width: 500px;
+    margin: 0% auto;
+    margin-top: 100px;
+}

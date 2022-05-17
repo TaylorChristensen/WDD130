@@ -9,6 +9,10 @@ nav a {
   text-decoration: none;
 }
 
+#hero-img {
+  margin: 0% auto;
+}
+
 #hero-msg h1 {
   text-align: center;
 }
@@ -30,11 +34,11 @@ main section {
 }
 
 body {
-  background-color: #98C1D9;
+  background-color: white;
 }
 
 header {
-  background-color: white;
+  background-color: #98C1D9;
 }
 
 nav a:hover {
