@@ -78,23 +78,28 @@ p {
   background-color: #999;
 }
 .colors td{
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: white;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: white;
 }
 .accent3 {
     background-color: var(--accent3-color);
+    color: white;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
