@@ -171,3 +171,7 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#imgborder {
+  border: 3px black solid;
+}
