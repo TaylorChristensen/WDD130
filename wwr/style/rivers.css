@@ -4,8 +4,88 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: 'Open Sans';
-    font-size: 22px
+    font-size: 22px;
   }
+
+#title {
+    text-align: center;
+    background-color: #293241;
+    color: #EE6C4D;
+    margin: 0% auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#river1-ttl {
+    text-align: center;
+    background-color: #98C1D9;
+    color: #293241;
+    margin: 0% auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;  
+}
+
+#river1-img {
+    margin: 0% auto;
+    width: 100%;
+}
+
+#river1msg {
+    font-size: medium;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#river2-ttl {
+    text-align: center;
+    background-color: #98C1D9;
+    color: #293241;
+    margin: 0% auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+#river2-img {
+    margin: 0% auto;
+    width: 100%;
+    box-shadow: 10px black;
+}
+
+#river2msg {
+    font-size: medium;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#river3-ttl {
+    text-align: center;
+    background-color: #98C1D9;
+    color: #293241;
+    margin: 0% auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+#river3-img {
+    margin: 0% auto;
+    width: 100%;
+    box-shadow: 10px black;
+}
+
+#river3msg {
+    font-size: medium;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
 nav a {
   text-align: center;
@@ -262,6 +342,10 @@ main section img {
   box-shadow: 5px 5px 10px black;
 }
 
+#title {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
     display: block;
@@ -301,5 +385,8 @@ main section img {
   }
   footer {
     margin-top: 25px;
+  }
+  h1 {
+    background-color: red;
   }
 }
