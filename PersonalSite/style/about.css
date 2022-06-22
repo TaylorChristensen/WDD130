@@ -28,6 +28,8 @@ header {
   background-color: #1d0d63;
   display: grid;
   grid-template-columns: 150px auto;
+  position: sticky;
+  top: 0px;
 }
 
 /* This is a needed Section */
