@@ -93,6 +93,20 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.service-img {
+    width: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.Services-type-img {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* This is a needed Section */
 footer {
   background-color: #1d0d63;
