@@ -60,8 +60,13 @@ nav a:hover {
 }
 
 #mainmsg {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    color: white;
+    padding: 25px 25px;
+    background-color: #1d0d63;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .mainimg {
