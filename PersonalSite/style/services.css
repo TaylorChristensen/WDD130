@@ -164,41 +164,116 @@ nav a:hover {
   grid-row-end: 8;
 }
 #schedule {
-    width: 300px;
-    text-align: center;
-    color: #bababa;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #bababa;
+  width: 300px;
+  text-align: center;
+  color: #bababa;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #bababa;
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 6;
 }
 
-.service-img {
-    width: 325px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 2px 2px 2px black;
+#service-type-box {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-position: center;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  margin-right: 75px;
+  margin-left: 75px;
 }
 
-.Services-type-img {
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 2px 2px 2px black;
+.business-type-img {
+  width: 500px;
+  box-shadow: 2px 2px 2px black;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.personal-type-img {
+  width: 500px;
+  box-shadow: 2px 2px 2px black;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#business-text {
+  color: #bababa;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 285px;
+}
+
+#personal-text {
+  color: #bababa;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 0px;
+  
+  text-align: center;
+  padding-top: 285px;
+}
+
+#services-2-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  object-position: center;
+  margin-right: 125px;
+  margin-left: 125px;
+}
+
+.tax-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.bookkeeping-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.analysis-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.payroll-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.consult-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.budget-service-img {
+  width: 275px;
+  box-shadow: 2px 2px 2px black;
 }
 
 /* This is a needed Section */
@@ -208,7 +283,7 @@ footer {
   margin-top: 200px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;z
 }
 /* This is a needed Section */
 footer h3 {
