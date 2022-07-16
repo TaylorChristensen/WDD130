@@ -47,41 +47,108 @@ nav a:hover {
 #title {
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 5px;
   height: 50px;
   font-size: xx-large;
   background-color: #2857ad;
   color: white;
+  
+}
+
+#main-box {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(7,100px);
+  padding-bottom: 0px;
 }
 
 #mainimg {
-    width: 100%;
-    height: 50%;
+  margin: 0% auto;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 7;
 }
 
 #mission-head {
-    font-size: xx-large;
-    text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: xx-large;
+  text-align: center;
 }
 
 #mission {
-    font-size: medium;
+    font-size: large;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    background-color: #1d0d63;
+    color: white;
+    margin-left: 25px;
+    margin-right:25px;
+    /* padding-bottom: 5px;
+    padding-top: 5px; */
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
 
 #impact-head {
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center; 
+    margin-top: 100px;
 }
 
 #impact {
-    font-size: medium;
+    font-size: large;
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#impact-img-box{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,100px);
+  padding-bottom: 10%;
+}
+
+#impact-img {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin: 0% auto;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  /* margin-right: 10%;
+  margin-left: 10%; */
+}
+
+#learn-more {
+  width: 300px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 #founder-head {
@@ -89,24 +156,49 @@ nav a:hover {
     text-align: center; 
 }
 
-#name-head {
-    font-size: large;
-    text-align: center; 
+#bio-box {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,100px);
+  /* padding-top: -100px; */
+  margin-top: -25px;
+
 }
 
+#name-head {
+    font-size: large;
+    /* text-align: center;  */
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
 #taylor {
     height: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 2px #1d0d63;
+    box-shadow: 2px 2px black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #bio {
     font-size: medium;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 300px;
+    margin-right: 200px;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
+
 
 /* This is a needed Section */
 footer {

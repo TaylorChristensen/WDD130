@@ -44,13 +44,6 @@ nav a:hover {
   color: white;
 }
 
-/* Need to change this to the correct grid sizing */
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(10,1fr);
-  width:100vw;
-}
-
 #title {
     text-align: center;
     margin-top: 0px;
