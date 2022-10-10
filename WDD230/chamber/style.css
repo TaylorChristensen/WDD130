@@ -1,0 +1,63 @@
+header {
+    background-color: #1d0d63;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: sticky;
+    top: 0px;
+    height: 125px;
+    font-size: large;
+  }
+  
+  /* This is a needed Section */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+  }
+  
+  /* This is a needed Section */
+  nav a:hover {
+    background-color: #6d7b0f;
+    color: white;
+  }
+
+  .logo {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;  
+  }
+
+  #link1 {
+    font-size: xx-large;
+    padding-top: 25px;
+    color: white;
+  }
+  #link2 {
+    font-size: xx-large;
+    padding-top: 25px;
+    color: white;
+  }
+  #link3 {
+    font-size: xx-large;
+    padding-top: 25px;
+    color: white;
+  }
+  #link4 {
+    font-size: xx-large;
+    padding-top: 25px;
+    color: white;
+  }
+
+
+  footer {
+    background-color: #1d0d63;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: large;
+  }
