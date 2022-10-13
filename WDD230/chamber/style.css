@@ -1,3 +1,7 @@
+#content {
+
+}
+
 header {
     background-color: #1d0d63;
     display: grid;
@@ -53,10 +57,22 @@ header {
   }
 
   #box-1 {
-    background-color: grey;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 200px;
+    width: 99.45%;
   }
   #box-2 {
-    background-color: grey;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 200px;
+    width: 99.45%;
   }
   #box-3 {
     background-color: grey;
@@ -64,7 +80,27 @@ header {
   #box-4 {
     background-color: grey;
   }
-  #box-5 {
+  
+  #box-5-1 {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  #box-5-2 {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: grey;
+    margin-right: 50%;
+  }
+  #box-5-3 {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: grey;
+    margin-left: 50%;
+  }
+
+  #box-6 {
     background-color: grey;
   }
 
