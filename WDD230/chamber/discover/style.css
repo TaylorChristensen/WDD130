@@ -17,8 +17,10 @@ nav {
   
   
 nav a:hover {
-    background-color: white;
-    color: #1d0d63;
+    background-color: #99D98C;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo {
@@ -33,67 +35,93 @@ nav a:hover {
 
 #link1 {
     font-size: xx-large;
-    padding-top: 25px;
+    padding-top: 40px;
     color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 #link2 {
     font-size: xx-large;
-    padding-top: 25px;
+    padding-top: 40px;
     color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 #link3 {
     font-size: xx-large;
-    padding-top: 25px;
+    padding-top: 40px;
     color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 #link4 {
     font-size: xx-large;
-    padding-top: 25px;
+    padding-top: 40px;
     color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #img-temple {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    margin-top: 50px;
+    width: 900px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 #img-map {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #img-tetons {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #img-watertower {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #img-byui {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #heading {
     font-size: large;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#description {
+    font-size: medium;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -104,4 +132,5 @@ footer {
     padding-bottom: 5px;
     text-align: center;
     font-size: large;
+    margin-top: 150px;
 }
