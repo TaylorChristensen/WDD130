@@ -65,6 +65,11 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.image:hover {
+    opacity: .5;
+    filter: blur(3px);
+}
+
 #img-temple {
     display: block;
     margin-left: auto;
