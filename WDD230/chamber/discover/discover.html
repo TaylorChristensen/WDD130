@@ -24,31 +24,31 @@
     </nav>
 </header>
 
-    <img data-src="./images/Rexburg Temple.jpg" alt="Rexburg Idaho Temple" id="img-temple" class="image">
+    <img src="./images/Rexburg Temple.jpg" alt="Rexburg Idaho Temple" id="img-temple" class="image"/>
         <p id="heading">Rexburg Idaho Temple</p>
         <p id="description">Sitting at the highest point of Rexburg the beutiful Rexburg Idaho Temple
             can be seen at any time of the day or night. This building is a truly iconinc
             part of the community.
         </p>
-    <img data-src="./images/Rexburg Map.jpg" alt="Rexburg Map" id="img-map" class="image">
+    <img src="./images/Rexburg Map.jpg" alt="Rexburg Map" id="img-map" class="image"/>
         <p id="heading">Map of Rexburg</p>
         <p id="description">The city of Rexburg is a small farming community that sits in southeastern Idaho
             in the Snake River plane. The population is currently at 35,300; which has nearly doubled since
             the year 2000, when it was just under 18,000 residents.
         </p>
-    <img data-src="./images/rexburg Tetons.jpg" alt="Tetons" id="img-tetons" class="image">
+    <img src="./images/rexburg Tetons.jpg" alt="Tetons" id="img-tetons" class="image"/>
         <p id="heading">Teton Mountain Range</p>
         <p id="description">Rexburg boasts amazing views of the Teton Mountain Range on a nearly daily basis.
             These mountains are a great place to hike, ski, bike, fish, and many more great outdoor activities.
             This Mountain range provides the locals and visitors plenty of opportunity to experience nature.
         </p>
-    <img data-src="./images/Rexburg Watertower.jpg" alt="Watertower" id="img-watertower" class="image">
+    <img src="./images/Rexburg Watertower.jpg" alt="Watertower" id="img-watertower" class="image"/>
         <p id="heading">Rexburg Watertower</p>
         <p id="description">The Iconing Watertower Displays the Towns name while also being a symbol of the
             towns history and legacy. Rexburg has been on the map and growing for along time and this landmark
             has been with it every step of the way.
         </p>
-    <img data-src="./images/byui campus.jpg" alt="BYU Idaho Campus" id="img-byui" class="image">
+    <img src="./images/byui campus.jpg" alt="BYU Idaho Campus" id="img-byui" class="image"/>
         <p id="heading">Brigham Young University - Idaho</p>
         <p id="description">There is not dispute about how influential Brigham Young University - Idaho (Formerly 
             Ricks College) has been in the Growth of this small Farm Community. Over the years the university has
@@ -57,32 +57,7 @@
             the world.
         </p>
 
-    <script>
-        let options = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 1
-        };
-
-        let callback = (entries, observer)=>{
-            entries.forEach(entry => {
-                if(entry.isIntersecting
-                    && entry.target.className === 'image') {
-                        let imageFile = entry.target.getAttribute('data-src');
-                        if(imageFile){
-                            entry.target.src = imageFile;
-                            observer.unobserver(entry.target);
-                        }
-                    }
-            });
-        }
-        let observer = new IntersectionObserver(callback, options);
-        observer.observe(document.querySelector('#img-temple'));
-        observer.observe(document.querySelector('#img-map'));
-        observer.observe(document.querySelector('#img-tetons'));
-        observer.observe(document.querySelector('#img-watertower'));
-        observer.observe(document.querySelector('#img-byui'));
-    </script>
+    <script src="./discover.js"> </script>
 
 <footer>
     <p>Rexburg Chamber of Commerce</p>
